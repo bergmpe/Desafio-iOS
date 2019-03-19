@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C678A70622411B0E00790527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A70522411B0E00790527 /* AppDelegate.swift */; };
+		C678A70822411B0E00790527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A70722411B0E00790527 /* ViewController.swift */; };
+		C678A70B22411B0E00790527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C678A70922411B0E00790527 /* Main.storyboard */; };
+		C678A70D22411B1000790527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C678A70C22411B1000790527 /* Assets.xcassets */; };
+		C678A71022411B1000790527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C678A70E22411B1000790527 /* LaunchScreen.storyboard */; };
+		C678A71B22411B1000790527 /* Desafio_iOS_WilliambergTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A71A22411B1000790527 /* Desafio_iOS_WilliambergTests.swift */; };
+		C678A72622411B1000790527 /* Desafio_iOS_WilliambergUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A72522411B1000790527 /* Desafio_iOS_WilliambergUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C678A71722411B1000790527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C678A6FA22411B0E00790527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C678A70122411B0E00790527;
+			remoteInfo = "Desafio iOS Williamberg";
+		};
+		C678A72222411B1000790527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C678A6FA22411B0E00790527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C678A70122411B0E00790527;
+			remoteInfo = "Desafio iOS Williamberg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C678A70222411B0E00790527 /* Desafio iOS Williamberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio iOS Williamberg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C678A70522411B0E00790527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C678A70722411B0E00790527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C678A70A22411B0E00790527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C678A70C22411B1000790527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C678A70F22411B1000790527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C678A71122411B1000790527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C678A71622411B1000790527 /* Desafio iOS WilliambergTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio iOS WilliambergTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C678A71A22411B1000790527 /* Desafio_iOS_WilliambergTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_iOS_WilliambergTests.swift; sourceTree = "<group>"; };
+		C678A71C22411B1000790527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C678A72122411B1000790527 /* Desafio iOS WilliambergUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio iOS WilliambergUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C678A72522411B1000790527 /* Desafio_iOS_WilliambergUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_iOS_WilliambergUITests.swift; sourceTree = "<group>"; };
+		C678A72722411B1000790527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C678A6FF22411B0E00790527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C678A71322411B1000790527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C678A71E22411B1000790527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C678A6F922411B0E00790527 = {
+			isa = PBXGroup;
+			children = (
+				C678A70422411B0E00790527 /* Desafio iOS Williamberg */,
+				C678A71922411B1000790527 /* Desafio iOS WilliambergTests */,
+				C678A72422411B1000790527 /* Desafio iOS WilliambergUITests */,
+				C678A70322411B0E00790527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C678A70322411B0E00790527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C678A70222411B0E00790527 /* Desafio iOS Williamberg.app */,
+				C678A71622411B1000790527 /* Desafio iOS WilliambergTests.xctest */,
+				C678A72122411B1000790527 /* Desafio iOS WilliambergUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C678A70422411B0E00790527 /* Desafio iOS Williamberg */ = {
+			isa = PBXGroup;
+			children = (
+				C678A70522411B0E00790527 /* AppDelegate.swift */,
+				C678A70722411B0E00790527 /* ViewController.swift */,
+				C678A70922411B0E00790527 /* Main.storyboard */,
+				C678A70C22411B1000790527 /* Assets.xcassets */,
+				C678A70E22411B1000790527 /* LaunchScreen.storyboard */,
+				C678A71122411B1000790527 /* Info.plist */,
+			);
+			path = "Desafio iOS Williamberg";
+			sourceTree = "<group>";
+		};
+		C678A71922411B1000790527 /* Desafio iOS WilliambergTests */ = {
+			isa = PBXGroup;
+			children = (
+				C678A71A22411B1000790527 /* Desafio_iOS_WilliambergTests.swift */,
+				C678A71C22411B1000790527 /* Info.plist */,
+			);
+			path = "Desafio iOS WilliambergTests";
+			sourceTree = "<group>";
+		};
+		C678A72422411B1000790527 /* Desafio iOS WilliambergUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C678A72522411B1000790527 /* Desafio_iOS_WilliambergUITests.swift */,
+				C678A72722411B1000790527 /* Info.plist */,
+			);
+			path = "Desafio iOS WilliambergUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C678A70122411B0E00790527 /* Desafio iOS Williamberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C678A72A22411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS Williamberg" */;
+			buildPhases = (
+				C678A6FE22411B0E00790527 /* Sources */,
+				C678A6FF22411B0E00790527 /* Frameworks */,
+				C678A70022411B0E00790527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio iOS Williamberg";
+			productName = "Desafio iOS Williamberg";
+			productReference = C678A70222411B0E00790527 /* Desafio iOS Williamberg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C678A71522411B1000790527 /* Desafio iOS WilliambergTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C678A72D22411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS WilliambergTests" */;
+			buildPhases = (
+				C678A71222411B1000790527 /* Sources */,
+				C678A71322411B1000790527 /* Frameworks */,
+				C678A71422411B1000790527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C678A71822411B1000790527 /* PBXTargetDependency */,
+			);
+			name = "Desafio iOS WilliambergTests";
+			productName = "Desafio iOS WilliambergTests";
+			productReference = C678A71622411B1000790527 /* Desafio iOS WilliambergTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C678A72022411B1000790527 /* Desafio iOS WilliambergUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C678A73022411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS WilliambergUITests" */;
+			buildPhases = (
+				C678A71D22411B1000790527 /* Sources */,
+				C678A71E22411B1000790527 /* Frameworks */,
+				C678A71F22411B1000790527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C678A72322411B1000790527 /* PBXTargetDependency */,
+			);
+			name = "Desafio iOS WilliambergUITests";
+			productName = "Desafio iOS WilliambergUITests";
+			productReference = C678A72122411B1000790527 /* Desafio iOS WilliambergUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C678A6FA22411B0E00790527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = berg;
+				TargetAttributes = {
+					C678A70122411B0E00790527 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C678A71522411B1000790527 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C678A70122411B0E00790527;
+					};
+					C678A72022411B1000790527 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C678A70122411B0E00790527;
+					};
+				};
+			};
+			buildConfigurationList = C678A6FD22411B0E00790527 /* Build configuration list for PBXProject "Desafio iOS Williamberg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C678A6F922411B0E00790527;
+			productRefGroup = C678A70322411B0E00790527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C678A70122411B0E00790527 /* Desafio iOS Williamberg */,
+				C678A71522411B1000790527 /* Desafio iOS WilliambergTests */,
+				C678A72022411B1000790527 /* Desafio iOS WilliambergUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C678A70022411B0E00790527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C678A71022411B1000790527 /* LaunchScreen.storyboard in Resources */,
+				C678A70D22411B1000790527 /* Assets.xcassets in Resources */,
+				C678A70B22411B0E00790527 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C678A71422411B1000790527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C678A71F22411B1000790527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C678A6FE22411B0E00790527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C678A70822411B0E00790527 /* ViewController.swift in Sources */,
+				C678A70622411B0E00790527 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C678A71222411B1000790527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C678A71B22411B1000790527 /* Desafio_iOS_WilliambergTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C678A71D22411B1000790527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C678A72622411B1000790527 /* Desafio_iOS_WilliambergUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C678A71822411B1000790527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C678A70122411B0E00790527 /* Desafio iOS Williamberg */;
+			targetProxy = C678A71722411B1000790527 /* PBXContainerItemProxy */;
+		};
+		C678A72322411B1000790527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C678A70122411B0E00790527 /* Desafio iOS Williamberg */;
+			targetProxy = C678A72222411B1000790527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C678A70922411B0E00790527 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C678A70A22411B0E00790527 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C678A70E22411B1000790527 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C678A70F22411B1000790527 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C678A72822411B1000790527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C678A72922411B1000790527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C678A72B22411B1000790527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XRA82V6CB;
+				INFOPLIST_FILE = "Desafio iOS Williamberg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.bergmpe.Desafio-iOS-Williamberg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C678A72C22411B1000790527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XRA82V6CB;
+				INFOPLIST_FILE = "Desafio iOS Williamberg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.bergmpe.Desafio-iOS-Williamberg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C678A72E22411B1000790527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XRA82V6CB;
+				INFOPLIST_FILE = "Desafio iOS WilliambergTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.bergmpe.Desafio-iOS-WilliambergTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio iOS Williamberg.app/Desafio iOS Williamberg";
+			};
+			name = Debug;
+		};
+		C678A72F22411B1000790527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XRA82V6CB;
+				INFOPLIST_FILE = "Desafio iOS WilliambergTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.bergmpe.Desafio-iOS-WilliambergTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio iOS Williamberg.app/Desafio iOS Williamberg";
+			};
+			name = Release;
+		};
+		C678A73122411B1000790527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XRA82V6CB;
+				INFOPLIST_FILE = "Desafio iOS WilliambergUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.bergmpe.Desafio-iOS-WilliambergUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio iOS Williamberg";
+			};
+			name = Debug;
+		};
+		C678A73222411B1000790527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XRA82V6CB;
+				INFOPLIST_FILE = "Desafio iOS WilliambergUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.bergmpe.Desafio-iOS-WilliambergUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio iOS Williamberg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C678A6FD22411B0E00790527 /* Build configuration list for PBXProject "Desafio iOS Williamberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C678A72822411B1000790527 /* Debug */,
+				C678A72922411B1000790527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C678A72A22411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS Williamberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C678A72B22411B1000790527 /* Debug */,
+				C678A72C22411B1000790527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C678A72D22411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS WilliambergTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C678A72E22411B1000790527 /* Debug */,
+				C678A72F22411B1000790527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C678A73022411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS WilliambergUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C678A73122411B1000790527 /* Debug */,
+				C678A73222411B1000790527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C678A6FA22411B0E00790527 /* Project object */;
+}
