@@ -39,12 +39,16 @@ class ViewController: UIViewController {
             }
         })
         
-        users.asObservable().bind(to: tableView.rx.items){
-            tableView, index, item in
-            let cell = tableView.dequeueReusableCell(withIdentifier: self.userCellIdentifier) as! UserTableViewCell
+//        users.asObservable().bind(to: tableView.rx.items){
+//            tableView, index, item in
+//            let cell = tableView.dequeueReusableCell(withIdentifier: self.userCellIdentifier) as! UserTableViewCell
+//            cell.configure(for: item)
+//            return cell
+//            }.disposed(by: disposeBag)
+        users.asObservable().bind(to: tableView.rx.items(cellIdentifier: userCellIdentifier, cellType: UserTableViewCell.self)){
+            row, item, cell in
             cell.configure(for: item)
-            return cell
-            }.disposed(by: disposeBag)
+        }.disposed(by: disposeBag)
         
         tableView.rx.modelSelected(User.self).subscribe(onNext: {
             user in
@@ -65,8 +69,6 @@ class ViewController: UIViewController {
                         if let _errorMessage = errorMessage{
                             ViewUtil.showAlert(title: "ERROR", message: _errorMessage, viewController: self)
                         }else if let _users = users{
-                            print(self.users.value.map({$0.login}))
-                            print(_users.map({$0.login}))
                             self.users.value.append(contentsOf: _users)
                         }
                     }
@@ -79,10 +81,30 @@ class ViewController: UIViewController {
             self.toggleSearchBar()
         }.disposed(by: disposeBag)
         
-        searchBar.rx.text.subscribe(onNext: {
+        searchBar.rx.text
+        .throttle( 0.8, scheduler: MainScheduler.instance)
+        .subscribe(onNext: {
             text in
             if let searchText = text{
-                
+                ViewUtil.showLoading(text: "Searching. . .", parent: self.view)
+                if searchText.isEmpty{
+                    ViewUtil.hideLoading(parent: self.view)
+                }
+                else{
+                    User.search(userName: searchText.lowercased() , completion: {
+                        users, errorMessage in
+                        DispatchQueue.main.async {
+                            ViewUtil.hideLoading(parent: self.view)
+                            if let _errorMessage = errorMessage{
+                                ViewUtil.showAlert(title: "ERRO", message: _errorMessage, viewController: self)
+                            }
+                            else if let _users = users{
+                                self.users.value.removeAll()
+                                self.users.value.append(contentsOf: _users)
+                            }
+                        }
+                    })
+                }
             }
         }).disposed(by: disposeBag)
         

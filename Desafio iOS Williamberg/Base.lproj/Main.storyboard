@@ -142,20 +142,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers: -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcU-1F-yLl">
-                                <rect key="frame" x="8" y="436.5" width="129" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers: -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="vcU-1F-yLl">
+                                <rect key="frame" x="8" y="436.5" width="145" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Following: -" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vv1-PR-epi">
-                                <rect key="frame" x="183" y="436.5" width="129" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Following: -" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="Vv1-PR-epi">
+                                <rect key="frame" x="167" y="436.5" width="145" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zx2-1G-5qc">
-                                <rect key="frame" x="8" y="486" width="304" height="30"/>
+                                <rect key="frame" x="8" y="483" width="304" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="List All Repositories"/>
                                 <connections>
                                     <action selector="listAllRepositoriesAction:" destination="cQO-uI-XAH" eventType="touchUpInside" id="BR4-nG-oPI"/>
@@ -164,7 +165,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Vv1-PR-epi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vcU-1F-yLl" secondAttribute="trailing" constant="46" id="1UC-ot-SZd"/>
                             <constraint firstItem="RVt-dJ-Asv" firstAttribute="leading" secondItem="ovz-P0-hyf" secondAttribute="leading" constant="8" id="41c-T7-I83"/>
                             <constraint firstItem="LZV-1T-BRH" firstAttribute="leading" secondItem="ovz-P0-hyf" secondAttribute="leading" constant="8" id="5kt-tk-ifp"/>
                             <constraint firstItem="ovz-P0-hyf" firstAttribute="bottom" secondItem="Zx2-1G-5qc" secondAttribute="bottom" constant="8" id="5sp-oV-r6j"/>
@@ -175,7 +175,7 @@
                             <constraint firstItem="vcU-1F-yLl" firstAttribute="leading" secondItem="ovz-P0-hyf" secondAttribute="leading" constant="8" id="En5-zh-FXr"/>
                             <constraint firstItem="rg3-L7-Tws" firstAttribute="top" secondItem="LZV-1T-BRH" secondAttribute="bottom" constant="8" id="Hya-PN-ZBb"/>
                             <constraint firstItem="PU0-bz-3fW" firstAttribute="top" secondItem="4Dd-32-QH4" secondAttribute="bottom" constant="8" id="KV4-BG-0Rl"/>
-                            <constraint firstItem="vcU-1F-yLl" firstAttribute="width" secondItem="iDT-ty-6WU" secondAttribute="width" multiplier="0.4" constant="1" id="L3A-MQ-Ru6"/>
+                            <constraint firstItem="vcU-1F-yLl" firstAttribute="width" secondItem="iDT-ty-6WU" secondAttribute="width" multiplier="0.45" constant="1" id="L3A-MQ-Ru6"/>
                             <constraint firstItem="rg3-L7-Tws" firstAttribute="leading" secondItem="ovz-P0-hyf" secondAttribute="leading" constant="8" id="Ru9-Do-TCD"/>
                             <constraint firstItem="Zx2-1G-5qc" firstAttribute="leading" secondItem="ovz-P0-hyf" secondAttribute="leading" constant="8" id="UEC-LX-Hf1"/>
                             <constraint firstItem="4Dd-32-QH4" firstAttribute="top" secondItem="rg3-L7-Tws" secondAttribute="bottom" constant="8" id="UY6-AQ-bz9"/>
@@ -183,7 +183,7 @@
                             <constraint firstItem="RVt-dJ-Asv" firstAttribute="top" secondItem="PU0-bz-3fW" secondAttribute="bottom" constant="8" id="Wh4-TM-3Lj"/>
                             <constraint firstItem="ovz-P0-hyf" firstAttribute="trailing" secondItem="Opf-jU-edc" secondAttribute="trailing" constant="8" id="Wse-vn-T8n"/>
                             <constraint firstItem="ovz-P0-hyf" firstAttribute="trailing" secondItem="LZV-1T-BRH" secondAttribute="trailing" constant="8" id="aho-2i-qKi"/>
-                            <constraint firstItem="Vv1-PR-epi" firstAttribute="width" secondItem="iDT-ty-6WU" secondAttribute="width" multiplier="0.4" constant="1" id="bVH-sU-UCn"/>
+                            <constraint firstItem="Vv1-PR-epi" firstAttribute="width" secondItem="iDT-ty-6WU" secondAttribute="width" multiplier="0.45" constant="1" id="bVH-sU-UCn"/>
                             <constraint firstItem="vcU-1F-yLl" firstAttribute="top" secondItem="RVt-dJ-Asv" secondAttribute="bottom" constant="8" id="cEn-jz-40M"/>
                             <constraint firstItem="ovz-P0-hyf" firstAttribute="trailing" secondItem="PU0-bz-3fW" secondAttribute="trailing" constant="8" id="e4F-N3-wem"/>
                             <constraint firstItem="ovz-P0-hyf" firstAttribute="trailing" secondItem="rg3-L7-Tws" secondAttribute="trailing" constant="8" id="h9j-eY-aKE"/>
@@ -191,6 +191,7 @@
                             <constraint firstItem="ovz-P0-hyf" firstAttribute="trailing" secondItem="Zx2-1G-5qc" secondAttribute="trailing" constant="8" id="lsB-Hn-a0y"/>
                             <constraint firstItem="Opf-jU-edc" firstAttribute="leading" secondItem="ovz-P0-hyf" secondAttribute="leading" constant="8" id="nwx-5f-QPL"/>
                             <constraint firstItem="Opf-jU-edc" firstAttribute="top" secondItem="ovz-P0-hyf" secondAttribute="top" id="t7n-T7-QAd"/>
+                            <constraint firstItem="Vv1-PR-epi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vcU-1F-yLl" secondAttribute="trailing" constant="14" id="ves-OC-28u"/>
                             <constraint firstItem="LZV-1T-BRH" firstAttribute="top" secondItem="Opf-jU-edc" secondAttribute="bottom" constant="8" id="z23-6a-BCo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ovz-P0-hyf"/>
@@ -236,7 +237,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Star" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGZ-ln-XCC">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Star" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bGZ-ln-XCC">
                                                     <rect key="frame" x="8" y="44" width="129" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>

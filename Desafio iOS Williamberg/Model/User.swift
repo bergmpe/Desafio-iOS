@@ -66,16 +66,6 @@ class User: Codable{
         })
     }
     
-    func getRepositories(){
-        guard let repositoryUrl = repos_url else {
-            return
-        }
-        ConectionManager.invoke(urlString: repositoryUrl, headerParameters: nil, completion: {
-            data, urlResponse, error in
-            print(data)
-        })
-    }
-    
     /// it list all users from github.
     ///
     /// - Parameters:
@@ -89,12 +79,38 @@ class User: Codable{
             if let _data = data, let _urlResponse = urlResponse{
                 do{
                     let httpResponse = _urlResponse as! HTTPURLResponse
-                    let linkHeaderResponse = httpResponse.allHeaderFields["Link"] as! String
-                    if let _link = linkHeaderResponse.split(separator: ";").filter({ $0.contains("since=") }).first{
+                    let linkHeaderResponse = httpResponse.allHeaderFields["Link"] as? String
+                    if let _link = linkHeaderResponse?.split(separator: ";").filter({ $0.contains("since=") }).first{
                         let linkString = String(_link).replacingOccurrences(of: "<", with: "").replacingOccurrences(of: ">", with: "")
                         offSet = String(linkString.split(separator: "=").last ?? "0" )
                     }
                     let users = try JSONDecoder().decode([User].self, from: _data)
+                    completion(users, nil)
+                }
+                catch{
+                    completion(nil, "Error to parse json.")
+                }
+            }
+            else{ completion(nil, "Error to get data.") }
+        })
+    }
+    
+    /// it search for users the contains the userName name parameter in their login property.
+    ///
+    /// - Parameters:
+    ///   - userName: The userName or part of it the you wish search.
+    ///   - completion: An array of users. If the request fails it returns nil.
+    class func search(userName: String, completion: @escaping ( _ users: [User]?, _ errorMessage: String? ) -> Void ){
+        ConectionManager.invoke(service: "search/users?q=" + userName + "in:login", headerParameters: nil, completion: {
+            data, urlResponse, error in
+            if let _error = error{
+                return completion(nil, _error.localizedDescription)
+            }
+            if let _data = data{
+                do{
+                    let json = try JSONSerialization.jsonObject(with: _data, options: []) as? [String: Any]
+                    guard let jsonItems = json?["items"] as? [[String: Any]]else { return completion(nil, "Error to parse json.")}
+                    let users = try JSONDecoder().decode([User].self, from: JSONSerialization.data(withJSONObject: jsonItems , options: []) )
                     completion(users, nil)
                 }
                 catch{
@@ -119,7 +135,6 @@ class User: Codable{
                     completion(json)
                 }
                 catch{
-                    print("Deu ruim")
                     completion(nil)
                 }
             }

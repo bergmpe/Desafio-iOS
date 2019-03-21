@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Desafio iOS Williamberg/Model/User.swift"
-            timestampString = "574831633.7881171"
+            timestampString = "574838440.855909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "getDetail(userLogin:completion:)"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "search(userName:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Desafio iOS Williamberg/Model/User.swift"
-            timestampString = "574831633.788222"
+            timestampString = "574838440.856289"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "list(completion:)"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "search(userName:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Desafio iOS Williamberg/Model/User.swift"
-            timestampString = "574831633.788289"
+            filePath = "Desafio iOS Williamberg/ViewController.swift"
+            timestampString = "574851854.190601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "list(completion:)"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +57,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Desafio iOS Williamberg/Model/User.swift"
-            timestampString = "574831633.788335"
+            filePath = "Desafio iOS Williamberg/Util/ConectionManager.swift"
+            timestampString = "574851557.8460571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "getRepositories()"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "invoke(service:headerParameters:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Desafio iOS Williamberg/ViewController.swift"
+            timestampString = "574851854.190677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
