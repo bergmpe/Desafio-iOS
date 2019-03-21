@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312B7C2C23286D914B21291B /* Pods_Desafio_iOS_WilliambergUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2570E3D2018E0F6955E25F /* Pods_Desafio_iOS_WilliambergUITests.framework */; };
+		4BE57684E537AB9A4CC55C3D /* Pods_Desafio_iOS_Williamberg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47353C4AAC2201D5798DCBF /* Pods_Desafio_iOS_Williamberg.framework */; };
+		700C261DAC49430B3FCC2053 /* Pods_Desafio_iOS_WilliambergTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849C8EACF41B50EDD8A34FEA /* Pods_Desafio_iOS_WilliambergTests.framework */; };
+		C647A19F2241733900634EBD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C647A19E2241733900634EBD /* User.swift */; };
+		C647A1A02241733900634EBD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C647A19E2241733900634EBD /* User.swift */; };
+		C647A1A32241789600634EBD /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C647A1A22241789600634EBD /* UserTableViewCell.swift */; };
+		C647A1A42241789600634EBD /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C647A1A22241789600634EBD /* UserTableViewCell.swift */; };
+		C647A1A62241CD1100634EBD /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C647A1A52241CD1100634EBD /* UserDetailViewController.swift */; };
+		C647A1A72241CD1100634EBD /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C647A1A52241CD1100634EBD /* UserDetailViewController.swift */; };
 		C678A70622411B0E00790527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A70522411B0E00790527 /* AppDelegate.swift */; };
 		C678A70822411B0E00790527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A70722411B0E00790527 /* ViewController.swift */; };
 		C678A70B22411B0E00790527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C678A70922411B0E00790527 /* Main.storyboard */; };
@@ -14,6 +23,12 @@
 		C678A71022411B1000790527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C678A70E22411B1000790527 /* LaunchScreen.storyboard */; };
 		C678A71B22411B1000790527 /* Desafio_iOS_WilliambergTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A71A22411B1000790527 /* Desafio_iOS_WilliambergTests.swift */; };
 		C678A72622411B1000790527 /* Desafio_iOS_WilliambergUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A72522411B1000790527 /* Desafio_iOS_WilliambergUITests.swift */; };
+		C678A7362241224200790527 /* ConectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678A7352241224200790527 /* ConectionManager.swift */; };
+		C6C246572242FB590026E9F7 /* ViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C246562242FB590026E9F7 /* ViewUtil.swift */; };
+		C6F7606B224313AB00762527 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7606A224313AB00762527 /* Extensions.swift */; };
+		C6F7606D2243270200762527 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7606C2243270200762527 /* RepositoryViewController.swift */; };
+		C6F7606F224329BC00762527 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7606E224329BC00762527 /* Repository.swift */; };
+		C6F7607122432CE600762527 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7607022432CE600762527 /* RepositoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA34364D50A9FD2E66EB0FA /* Pods-Desafio iOS Williamberg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS Williamberg.release.xcconfig"; path = "Target Support Files/Pods-Desafio iOS Williamberg/Pods-Desafio iOS Williamberg.release.xcconfig"; sourceTree = "<group>"; };
+		3A7F9C7FE261D4C059CB983E /* Pods-Desafio iOS Williamberg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS Williamberg.debug.xcconfig"; path = "Target Support Files/Pods-Desafio iOS Williamberg/Pods-Desafio iOS Williamberg.debug.xcconfig"; sourceTree = "<group>"; };
+		4667AE2FC5EE9427381CADE5 /* Pods-Desafio iOS WilliambergUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS WilliambergUITests.release.xcconfig"; path = "Target Support Files/Pods-Desafio iOS WilliambergUITests/Pods-Desafio iOS WilliambergUITests.release.xcconfig"; sourceTree = "<group>"; };
+		849C8EACF41B50EDD8A34FEA /* Pods_Desafio_iOS_WilliambergTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_iOS_WilliambergTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BA1EA2E98B6F596327C9B1 /* Pods-Desafio iOS WilliambergTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS WilliambergTests.release.xcconfig"; path = "Target Support Files/Pods-Desafio iOS WilliambergTests/Pods-Desafio iOS WilliambergTests.release.xcconfig"; sourceTree = "<group>"; };
+		C647A19E2241733900634EBD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C647A1A22241789600634EBD /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		C647A1A52241CD1100634EBD /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		C678A70222411B0E00790527 /* Desafio iOS Williamberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio iOS Williamberg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C678A70522411B0E00790527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C678A70722411B0E00790527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,16 @@
 		C678A72122411B1000790527 /* Desafio iOS WilliambergUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio iOS WilliambergUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C678A72522411B1000790527 /* Desafio_iOS_WilliambergUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_iOS_WilliambergUITests.swift; sourceTree = "<group>"; };
 		C678A72722411B1000790527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C678A7352241224200790527 /* ConectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectionManager.swift; sourceTree = "<group>"; };
+		C6C246562242FB590026E9F7 /* ViewUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtil.swift; sourceTree = "<group>"; };
+		C6F7606A224313AB00762527 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C6F7606C2243270200762527 /* RepositoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
+		C6F7606E224329BC00762527 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		C6F7607022432CE600762527 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		D47353C4AAC2201D5798DCBF /* Pods_Desafio_iOS_Williamberg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_iOS_Williamberg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B09A3BCDC32183C0CD89AD /* Pods-Desafio iOS WilliambergTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS WilliambergTests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio iOS WilliambergTests/Pods-Desafio iOS WilliambergTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFCBA091A6CB7A02841093A3 /* Pods-Desafio iOS WilliambergUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS WilliambergUITests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio iOS WilliambergUITests/Pods-Desafio iOS WilliambergUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2570E3D2018E0F6955E25F /* Pods_Desafio_iOS_WilliambergUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_iOS_WilliambergUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE57684E537AB9A4CC55C3D /* Pods_Desafio_iOS_Williamberg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700C261DAC49430B3FCC2053 /* Pods_Desafio_iOS_WilliambergTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +103,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312B7C2C23286D914B21291B /* Pods_Desafio_iOS_WilliambergUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C647A1A12241786900634EBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C647A1A22241789600634EBD /* UserTableViewCell.swift */,
+				C6C246562242FB590026E9F7 /* ViewUtil.swift */,
+				C6F7607022432CE600762527 /* RepositoryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C678A6F922411B0E00790527 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				C678A71922411B1000790527 /* Desafio iOS WilliambergTests */,
 				C678A72422411B1000790527 /* Desafio iOS WilliambergUITests */,
 				C678A70322411B0E00790527 /* Products */,
+				E05749AE6C7D9DD451D8B06F /* Pods */,
+				D89A21C1151DB1C9BC86BDDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +145,17 @@
 		C678A70422411B0E00790527 /* Desafio iOS Williamberg */ = {
 			isa = PBXGroup;
 			children = (
+				C647A1A12241786900634EBD /* View */,
+				C678A73422411F7F00790527 /* Util */,
+				C678A73322411B7500790527 /* Model */,
 				C678A70522411B0E00790527 /* AppDelegate.swift */,
 				C678A70722411B0E00790527 /* ViewController.swift */,
 				C678A70922411B0E00790527 /* Main.storyboard */,
 				C678A70C22411B1000790527 /* Assets.xcassets */,
 				C678A70E22411B1000790527 /* LaunchScreen.storyboard */,
 				C678A71122411B1000790527 /* Info.plist */,
+				C647A1A52241CD1100634EBD /* UserDetailViewController.swift */,
+				C6F7606C2243270200762527 /* RepositoryViewController.swift */,
 			);
 			path = "Desafio iOS Williamberg";
 			sourceTree = "<group>";
@@ -125,6 +178,47 @@
 			path = "Desafio iOS WilliambergUITests";
 			sourceTree = "<group>";
 		};
+		C678A73322411B7500790527 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C647A19E2241733900634EBD /* User.swift */,
+				C6F7606E224329BC00762527 /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C678A73422411F7F00790527 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C678A7352241224200790527 /* ConectionManager.swift */,
+				C6F7606A224313AB00762527 /* Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D89A21C1151DB1C9BC86BDDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D47353C4AAC2201D5798DCBF /* Pods_Desafio_iOS_Williamberg.framework */,
+				849C8EACF41B50EDD8A34FEA /* Pods_Desafio_iOS_WilliambergTests.framework */,
+				FC2570E3D2018E0F6955E25F /* Pods_Desafio_iOS_WilliambergUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E05749AE6C7D9DD451D8B06F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A7F9C7FE261D4C059CB983E /* Pods-Desafio iOS Williamberg.debug.xcconfig */,
+				0FA34364D50A9FD2E66EB0FA /* Pods-Desafio iOS Williamberg.release.xcconfig */,
+				E5B09A3BCDC32183C0CD89AD /* Pods-Desafio iOS WilliambergTests.debug.xcconfig */,
+				86BA1EA2E98B6F596327C9B1 /* Pods-Desafio iOS WilliambergTests.release.xcconfig */,
+				EFCBA091A6CB7A02841093A3 /* Pods-Desafio iOS WilliambergUITests.debug.xcconfig */,
+				4667AE2FC5EE9427381CADE5 /* Pods-Desafio iOS WilliambergUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C678A72A22411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS Williamberg" */;
 			buildPhases = (
+				17C526178BC1ADEFE640E0F0 /* [CP] Check Pods Manifest.lock */,
 				C678A6FE22411B0E00790527 /* Sources */,
 				C678A6FF22411B0E00790527 /* Frameworks */,
 				C678A70022411B0E00790527 /* Resources */,
+				43F83F6AD58B3CB5F6DDF343 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C678A72D22411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS WilliambergTests" */;
 			buildPhases = (
+				1863E4F14D38B55000AF3C52 /* [CP] Check Pods Manifest.lock */,
 				C678A71222411B1000790527 /* Sources */,
 				C678A71322411B1000790527 /* Frameworks */,
 				C678A71422411B1000790527 /* Resources */,
+				18AFF06ECF88D9969E560196 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C678A73022411B1000790527 /* Build configuration list for PBXNativeTarget "Desafio iOS WilliambergUITests" */;
 			buildPhases = (
+				B59B1D60F14FEC4B2ADD8C78 /* [CP] Check Pods Manifest.lock */,
 				C678A71D22411B1000790527 /* Sources */,
 				C678A71E22411B1000790527 /* Frameworks */,
 				C678A71F22411B1000790527 /* Resources */,
@@ -251,13 +350,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17C526178BC1ADEFE640E0F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio iOS Williamberg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1863E4F14D38B55000AF3C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio iOS WilliambergTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18AFF06ECF88D9969E560196 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio iOS WilliambergTests/Pods-Desafio iOS WilliambergTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio iOS WilliambergTests/Pods-Desafio iOS WilliambergTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F83F6AD58B3CB5F6DDF343 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio iOS Williamberg/Pods-Desafio iOS Williamberg-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio iOS Williamberg/Pods-Desafio iOS Williamberg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59B1D60F14FEC4B2ADD8C78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio iOS WilliambergUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C678A6FE22411B0E00790527 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C647A19F2241733900634EBD /* User.swift in Sources */,
+				C6C246572242FB590026E9F7 /* ViewUtil.swift in Sources */,
 				C678A70822411B0E00790527 /* ViewController.swift in Sources */,
+				C6F7606B224313AB00762527 /* Extensions.swift in Sources */,
+				C6F7606D2243270200762527 /* RepositoryViewController.swift in Sources */,
+				C647A1A62241CD1100634EBD /* UserDetailViewController.swift in Sources */,
+				C6F7607122432CE600762527 /* RepositoryTableViewCell.swift in Sources */,
+				C678A7362241224200790527 /* ConectionManager.swift in Sources */,
+				C6F7606F224329BC00762527 /* Repository.swift in Sources */,
 				C678A70622411B0E00790527 /* AppDelegate.swift in Sources */,
+				C647A1A32241789600634EBD /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +494,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C647A1A02241733900634EBD /* User.swift in Sources */,
+				C647A1A42241789600634EBD /* UserTableViewCell.swift in Sources */,
+				C647A1A72241CD1100634EBD /* UserDetailViewController.swift in Sources */,
 				C678A71B22411B1000790527 /* Desafio_iOS_WilliambergTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,11 +662,13 @@
 		};
 		C678A72B22411B1000790527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7F9C7FE261D4C059CB983E /* Pods-Desafio iOS Williamberg.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XRA82V6CB;
 				INFOPLIST_FILE = "Desafio iOS Williamberg/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +682,13 @@
 		};
 		C678A72C22411B1000790527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA34364D50A9FD2E66EB0FA /* Pods-Desafio iOS Williamberg.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XRA82V6CB;
 				INFOPLIST_FILE = "Desafio iOS Williamberg/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +702,7 @@
 		};
 		C678A72E22411B1000790527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B09A3BCDC32183C0CD89AD /* Pods-Desafio iOS WilliambergTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +724,7 @@
 		};
 		C678A72F22411B1000790527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BA1EA2E98B6F596327C9B1 /* Pods-Desafio iOS WilliambergTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +746,7 @@
 		};
 		C678A73122411B1000790527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCBA091A6CB7A02841093A3 /* Pods-Desafio iOS WilliambergUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +767,7 @@
 		};
 		C678A73222411B1000790527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4667AE2FC5EE9427381CADE5 /* Pods-Desafio iOS WilliambergUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
