@@ -39,12 +39,6 @@ class ViewController: UIViewController {
             }
         })
         
-//        users.asObservable().bind(to: tableView.rx.items){
-//            tableView, index, item in
-//            let cell = tableView.dequeueReusableCell(withIdentifier: self.userCellIdentifier) as! UserTableViewCell
-//            cell.configure(for: item)
-//            return cell
-//            }.disposed(by: disposeBag)
         users.asObservable().bind(to: tableView.rx.items(cellIdentifier: userCellIdentifier, cellType: UserTableViewCell.self)){
             row, item, cell in
             cell.configure(for: item)
@@ -56,25 +50,25 @@ class ViewController: UIViewController {
         }).disposed(by: disposeBag)
         
         
-        tableView.rx.willDisplayCell.subscribe(onNext: {
-            cell, indexPath in
-            if indexPath.section == self.tableView.numberOfSections - 1 &&
-                indexPath.row == self.tableView.numberOfRows(inSection: indexPath.section) - 1{
-                //this is the last cell
-                ViewUtil.showLoading(text: "Loading. . .", parent: self.view)
-                User.list( completion: {
-                    users, errorMessage  in
-                    DispatchQueue.main.async {
-                        ViewUtil.hideLoading(parent: self.view)
-                        if let _errorMessage = errorMessage{
-                            ViewUtil.showAlert(title: "ERROR", message: _errorMessage, viewController: self)
-                        }else if let _users = users{
-                            self.users.value.append(contentsOf: _users)
-                        }
-                    }
-                })
-            }
-        }).disposed(by: disposeBag)
+//        tableView.rx.willDisplayCell.subscribe(onNext: {
+//            cell, indexPath in
+//            if indexPath.section == self.tableView.numberOfSections - 1 &&
+//                indexPath.row == self.tableView.numberOfRows(inSection: indexPath.section) - 1{
+//                //this is the last cell
+//                ViewUtil.showLoading(text: "Loading. . .", parent: self.view)
+//                User.list( completion: {
+//                    users, errorMessage  in
+//                    DispatchQueue.main.async {
+//                        ViewUtil.hideLoading(parent: self.view)
+//                        if let _errorMessage = errorMessage{
+//                            ViewUtil.showAlert(title: "ERROR", message: _errorMessage, viewController: self)
+//                        }else if let _users = users{
+//                            self.users.value.append(contentsOf: _users)
+//                        }
+//                    }
+//                })
+//            }
+//        }).disposed(by: disposeBag)
         
         searchBar.showsCancelButton = true
         searchBarButton.rx.tap.bind{
@@ -99,8 +93,7 @@ class ViewController: UIViewController {
                                 ViewUtil.showAlert(title: "ERRO", message: _errorMessage, viewController: self)
                             }
                             else if let _users = users{
-                                self.users.value.removeAll()
-                                self.users.value.append(contentsOf: _users)
+                                self.users.value = _users
                             }
                         }
                     })
@@ -131,6 +124,7 @@ class ViewController: UIViewController {
             searchBarTopConstraint.constant = -searchBar.frame.height
         }
         else{
+            searchBar.becomeFirstResponder()
             searchBarTopConstraint.constant = 0
         }
         UIView.animate(withDuration: 0.5, animations: {

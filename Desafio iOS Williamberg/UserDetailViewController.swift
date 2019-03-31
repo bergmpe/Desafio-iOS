@@ -50,7 +50,8 @@ class UserDetailViewController: UIViewController {
         guard let userLogin = currentUser?.login else { return }
         User.getDetail(userLogin: userLogin, completion: {
             _user in
-            DispatchQueue.main.async {            
+            print(_user)
+            DispatchQueue.main.async {
                 self.nameLabel.text = "Name: \(_user?.name ?? "-")"
                 self.companyLabel.text = "Company: \(_user?.company ?? "-")"
                 self.locationLabel.text = "Location: \(_user?.location ?? "-")"

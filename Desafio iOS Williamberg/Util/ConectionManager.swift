@@ -25,10 +25,11 @@ class ConectionManager{
             })
         }
         
-        URLSession.shared.dataTask(with: request, completionHandler: {
+        let dataTask = URLSession.shared.dataTask(with: request, completionHandler: {
             data, urlResponse, error in
             completion(data, urlResponse, error)
-        }).resume()
+        })
+        dataTask.resume()
     }
     
     class func invoke(urlString: String, headerParameters: [String: String]? ,completion: @escaping  ( _ data: Data?, _ urlResponse: URLResponse?, _ error: Error?) -> Void ){

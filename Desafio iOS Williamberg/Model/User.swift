@@ -34,7 +34,7 @@ class User: Codable{
     let blog: String?
     let location: String?
     let email: String?
-    let hireable: String?
+    let hireable: Bool?
     let bio: String?
     let public_repos: Int?
     let public_gists: Int?
@@ -66,7 +66,7 @@ class User: Codable{
         })
     }
     
-    /// it list all users from github.
+    /// it lists all users from github.
     ///
     /// - Parameters:
     ///   - completion: An array of users. If the request fails it returns nil.
